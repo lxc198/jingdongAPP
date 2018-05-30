@@ -1,10 +1,6 @@
 import json
 import sys
-
-lt = ['D:\\Anaconda3\\envs\\py36\\python36.zip', 'D:\\Anaconda3\\envs\\py36\\DLLs', 'D:\\Anaconda3\\envs\\py36\\lib', 'D:\\Anaconda3\\envs\\py36', 'D:\\Anaconda3\\envs\\py36\\lib\\site-packages', 'D:\\Anaconda3\\envs\\py36\\lib\\site-packages\\win32', 'D:\\Anaconda3\\envs\\py36\\lib\\site-packages\\win32\\lib', 'D:\\Anaconda3\\envs\\py36\\lib\\site-packages\\Pythonwin', 'D:\\PyWork\\helpers\\pycharm_matplotlib_backend']
-for i in lt:
-    sys.path.append(i)
-
+#导入包可能会提示找不到,可自行添加环境变量
 import pymongo
 
 def MongoClient():
