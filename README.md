@@ -1,0 +1,3 @@
+# jingdongAPP
+抓取京东APP商品和评论
+利用mitmproxy抓取京东APP商品和评论
